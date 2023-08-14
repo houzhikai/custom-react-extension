@@ -23,4 +23,7 @@ taskkill -f /pid 21292
 # 添加 console 读取本地路径
 
 # 修改 读取本地路径 1
+
 # custom-react-extension
+
+# 保持相互通信
