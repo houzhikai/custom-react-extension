@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ES2020",
+		"outDir": "out",
+		"lib": [
+			"ES2020",
+			"DOM",
+		    "DOM.Iterable"
+		],
+		"sourceMap": true,
+		"rootDir": "src",
+		"strict": true   /* enable all strict type-checking options */,
+		"jsx": "react-jsx",
+		"esModuleInterop": true ,// 用于处理在 TypeScript 项目中使用 ES 模块语法时的兼容性问题。
+		/* Additional Checks */
+		// "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
+		// "noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
+		// "noUnusedParameters": true,  /* Report errors on unused parameters. */
+	},
+	"exclude": ["src/test"]
+}
